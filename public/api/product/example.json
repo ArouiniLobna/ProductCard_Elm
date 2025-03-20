@@ -1,0 +1,46 @@
+{
+  "name": "Note Sleeve Wallet",
+  "price": 89.0,
+  "colors": [
+    {
+      "name": "Black",
+      "hex": "#000000",
+      "id": "black"
+    },
+    {
+      "name": "Navy",
+      "hex": "#1e3a5f",
+      "id": "navy"
+    },
+    {
+      "name": "Caramel",
+      "hex": "#c68c53",
+      "id": "caramel"
+    },
+    {
+      "name": "Racing Green",
+      "hex": "#004d40",
+      "id": "racing-green"
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/products/note-sleeve-black.jpg",
+      "alt": "Note Sleeve Wallet in Black"
+    },
+    {
+      "url": "/images/products/note-sleeve-navy.jpg",
+      "alt": "Note Sleeve Wallet in Navy"
+    },
+    {
+      "url": "/images/products/note-sleeve-caramel.jpg",
+      "alt": "Note Sleeve Wallet in Caramel"
+    },
+    {
+      "url": "/images/products/note-sleeve-racing-green.jpg",
+      "alt": "Note Sleeve Wallet in Racing Green"
+    }
+  ],
+  "slug": "note-sleeve-wallet",
+  "badgeText": "Best Seller"
+}

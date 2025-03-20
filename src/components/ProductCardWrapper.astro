@@ -1,0 +1,34 @@
+ <!-- src/components/ProductCardWrapper.astro
+
+// This component serves as a wrapper for the Elm ProductCard component,
+// handling the integration between Astro and Elm.
+-->
+
+<div id="product-card-container" class="product-card-wrapper">
+  <!-- Elm will mount the component here -->
+</div>
+
+<script>
+  // Import the compiled Elm module
+  import { Elm } from "../elm/Main.elm";
+
+  // Initialize the Elm application
+  const app = Elm.Main.init({
+    node: document.getElementById("product-card-container"),
+    // You can pass flags to Elm here if needed
+    flags: {
+      apiUrl: import.meta.env.PUBLIC_API_URL || "/api"
+    }
+  });
+
+  // Set up ports for communication between Elm and JavaScript if needed
+  // app.ports.sendToJs.subscribe(data => {
+  //   console.log("Received from Elm:", data);
+  // });
+</script>
+
+<style>
+  .product-card-wrapper {
+    width: 100%;
+  }
+</style>

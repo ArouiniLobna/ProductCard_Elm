@@ -9,6 +9,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.5.3"
+    "@astrojs/tailwind": "^6.0.0",
+    "astro": "^5.5.3",
+    "elmstronaut": "^0.1.1"
+  },
+  "devDependencies": {
+    "vite-plugin-elm": "^3.0.1"
   }
 }
