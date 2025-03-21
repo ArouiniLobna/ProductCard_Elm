@@ -63,10 +63,12 @@ npm install astro-elm
 
 ```javascript
 import { defineConfig } from "astro/config";
-import elm from "astro-elm";
+import elm from "vite-plugin-elm";
 
 export default defineConfig({
-  integrations: [elm()],
+  vite: {
+    plugins: [elm()],
+  },
 });
 ```
 
